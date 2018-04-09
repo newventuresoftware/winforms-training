@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPFHello", "TPFHello\TPFHello.csproj", "{A1D35FA7-9019-476C-972D-208D60522F0B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1D35FA7-9019-476C-972D-208D60522F0B}.Debug|x86.ActiveCfg = Debug|x86
+		{A1D35FA7-9019-476C-972D-208D60522F0B}.Debug|x86.Build.0 = Debug|x86
+		{A1D35FA7-9019-476C-972D-208D60522F0B}.Release|x86.ActiveCfg = Release|x86
+		{A1D35FA7-9019-476C-972D-208D60522F0B}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B77B4854-8F27-4AF0-BFC3-6E0153870761}
+	EndGlobalSection
+EndGlobal

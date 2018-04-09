@@ -1,0 +1,712 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Telerik UI for WinForms</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/simple.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+    <link rel="stylesheet" href=" css/style.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            <section id="main" data-background-color="#02BCEB">
+                <img alt="" src="./img/telerik-ui-for-winforms-870x220.jpg" class="no-border" />
+            </section>
+            <section id="speaker-and-company-info" data-background="./img/telerik-bg.jpg">
+                <section>
+                    <h3>Welcome</h3>
+                    <h4>Progress Virtual Classroom</h4>
+                    <img alt="" width="700" src="./img/virtual-academy.jpg" class="no-border" />
+                    <aside class="notes">
+                        <ul>
+                            <li>Welcome to virtual classroom</li>
+                            <li>The motivation for virtual classroom.</li>
+                            <li>Together with colegues.</li>
+                            <li>Post any question, comments and issus</li>
+                        </ul>
+                        <p>I am very proud to welcome you to this virtual classroom. Progress has a long history of providing tools to make developers happy and successful. They have great UI components, superb documentation, the very best support and now with Virtual Classroom - the very best training at no additional cost. This is a free training program for Telerik active license holders.</p>
+                    </aside>
+                </section>
+                <section id="training-schedule">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><strong>Date</strong></td>
+                                <td><strong>Time</strong></td>
+                                <td><strong>Course</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>February 28, 2018</td>
+                                <td>9am - 1pm EST<strong></strong></td>
+                                <td><strong>Kendo UI &amp; Angular</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>March 7, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Telerik UI for ASP.NET MVC and ASP.NET Core</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>March 8, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Kendo UI &amp; React</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>March 14, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Kendo UI &amp; jQuery</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>March 22, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Kendo UI &amp; Vue</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>March 27, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Telerik UI for Xamarin</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>March 30, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Telerik UI for WPF</strong></td>
+                            </tr>
+                            <tr class="passed-training">
+                                <td>April 5, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Telerik Reporting &amp; Telerik Report Server</strong></td>
+                            </tr>
+                            <tr class="current-training">
+                                <td>April 10, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Telerik UI for WinForms</strong><strong></strong></td>
+                            </tr>
+                            <tr>
+                                <td>April 12, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Telerik UI for ASP.NET AJAX</strong><strong></strong></td>
+                            </tr>
+                            <tr>
+                                <td>April 13, 2018</td>
+                                <td>9am - 1pm EST</td>
+                                <td><strong>Telerik UI for UWP</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <aside class="notes">
+                        <ul>
+                            <li>Virtual classroom is a training program for all DevCraft major products</li>
+                            <li>30 hours of content in partnership with NVS</li>
+                            <li>This program is designed to get you quickly onboarded</li>
+                            <li>What has passed and what is to come</li>
+                            <li>All of the recordings, videos, slides and demos will be available to you</li>
+                        </ul>
+                        <p>We have prepared more than 30 hours for technical content for you in partnership with New Venture Software. This program is designed to get you quickly onboarded with our developer tools whether you have been using them for years or are completely new to the suite. In each session we are going to provide practical knowledge, helpful approaches, we will focus on the best practices in order to get you started with application development. All of the recordings, videos, slides and demos will be available to you after the training is complete.</p>
+                    </aside>
+                </section>
+                <section id="speaker-info">
+                    <div class="speaker-img-container">
+                        <img alt="" src="./img/speaker.jpg" width="200" />
+                        <h4>Yavor Ivanov</h4>
+                    </div>
+                    <table class="speaker-contact-info">
+                        <tbody>
+                            <tr>
+                                <td><img alt="" class="no-border" src="./img/email.png" width="50"></td>
+                                <td style="vertical-align:middle"> <a href="mailto:yavor@newventuresoftware.com?Subject=Hello" target="_blank">yavor@newventuresoftware.com</a></td>
+                            </tr>
+                            <tr>
+                                <td><img alt="" class="no-border" src="./img/web.png" width="50"></td>
+                                <td style="vertical-align:middle"> <a href="https://www.newventuresoftware.com/blog" target="_blank">www.newventuresoftware.com/blog</a></td>
+                            </tr>
+                            <tr>
+                                <td><img alt="" class="no-border" src="./img/github.png" width="50"></td>
+                                <td style="vertical-align:middle"> <a href="https://github.com/yavor87" target="_blank">github.com/yavor87</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <aside class="notes">
+                        <ul>
+                            <li>About myself and my experience</li>
+                            <li>Helped build the DevCraft suite</li>
+                            <li>Any feedback, suggestions or need help</li>
+                            <li>Contact info</li>
+                        </ul>
+                    </aside>
+                </section>
+                <section data-background="./img/Training-intro-slide.jpg">
+                    <aside class="notes">
+                            <h2>New Venture Software</h2>
+                            <p>
+                                A premium consulting and professional services partner for Progress Telerik products and technologies.
+                            </p>
+                        </aside>
+                </section>
+                <section id="nvs-partners" data-background="./img/Training-intro-slide+bullets.jpg">
+                    <aside class="notes">
+                        <ol>
+                            <li>
+                                Most of us are ex-Progress software architects who have led a number of teams building the Telerik DevCraft suite.
+                            </li>
+                            <li>
+                                We support all progress Telerik products and technologies be it for the web, desktop or mobile.
+                            </li>
+                            <li>
+                                Successful track record of delivering future-proof software consulting and development solutions.
+                            </li>
+                            <li>
+                                My teammates and I feel honoured and excited to have the opportunity to share our experience and passion about the Telerik technologies.
+                            </li>
+                        </ol>
+                    </aside>
+                </section>
+            </section>
+            <section id="agenda" class="color-white" data-background-image="./img/school-board.jpg">
+                <h3>Agenda</h3>
+                <ul>
+                    <li class="fragment">Getting started</li>
+                    <li class="fragment">TPF</li>
+                    <li class="fragment">Explore &amp; customize components</li>
+                </ul>
+            </section>
+            <section id="winforms-intro">
+                <section data-background="./img/ready-to-start-org.jpg">
+                    <aside class="notes">
+                        <a href="https://github.com/newventuresoftware/winforms-training">GitHub repo</a>
+                    </aside>
+                </section>
+                <section class="color-white" data-background="./img/umbrella-bg.jpg">
+                    <h3>Why choose Telerik</h3>
+                    <ul class="present">
+                        <li class="fragment">120+ UI Components</li>
+                        <li class="fragment">Build with performance in mind</li>
+                        <li class="fragment">TPF</li>
+                        <li class="fragment">Modern Professional Themes</li>
+                        <li class="fragment">High DPI Support</li>
+                        <li class="fragment">Multi-Touch support</li>
+                    </ul>
+                </section>
+                <section data-background="./img/Getting+Started.png">
+                    <h3>Installing Telerik components for WinForms</h3>
+                    <ul class="present">
+                        <li class="fragment">Setup <b>TelerikUIForWinFormsSetup</b></li>
+                        <li class="fragment">MSI installer</li>
+                        <li class="fragment">ZIP archive for manual installation</li>
+                        <li class="fragment">Nuget: <b>https://nuget.telerik.com/nuget</b></li>
+                    </ul>
+                    <aside class="notes">
+                        The Telerik WinForms setup performs the following actions during the installation process:
+                        <ul>
+                            <li>Copies the needed files and assemblies on your machine</li>
+                            <li>Installs all Telerik WinForms assemblies in the Global Assembly Cache (GAC)</li>
+                            <li>Creates native images for all Telerik UI for for WinForms assemblies</li>
+                            <li>Checks the Visual Studio version(s) installed on the machine. We currently support Visual Studio 2005, 2008, 2010, 2012, 2013, 2015 and 2017 installations</li>
+                            <li>Installs/adds all Telerik WinForms controls in the toolbox of Visual Studio</li>
+                            <li>Installs Telerik UI for for WinForms Visual Studio templates</li>
+                            <li>Installs Telerik UI for for WinForms Visual Studio Extensions add-on</li>
+                            <li>Installs Telerik UI for for WinForms Examples</li>
+                            <li>Installs Telerik UI for for WinForms Coded UI support for Visual Studio</li>
+                        </ul>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Telerik Presentation Foundation</h3>
+                </section>
+                <section data-background-color="#fff">
+                    <h3>Specific Internal Structure</h3>
+                    <img class="no-border" src="./img/tpf-overview-introducing001.png" width="400" />
+                    <aside class="notes">
+                        <p>Any control in the Telerik UI for for WinForms suite is composed of RadElement instances arranged in a logical tree. You can inspect this tree using the VisualStyleBuilder or the Control Spy. For example, the screenshot below shows the internal structure of a RadButton control as displayed by the Control Spy. In this case, you can see the RootRadElement with the RadButtonElement as its only child. The RadButtonElement in turn contains a ImageAndTextLayoutPanel which in turn holds the elements that make up the button visual representation. At the leaf level of the tree, various primitives are the atomic pieces that make up the element. For example, button contains a fill, text, image and border primitives.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Benefits of using TPF</h3>
+                    <ul class="present">
+                        <li class="fragment">Deep customization</li>
+                        <li class="fragment">Theming</li>
+                        <li class="fragment">Animations</li>
+                        <li class="fragment">Creating custom controls easily</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Important classes in the TPF hierarchy</h3>
+                    <ul class="present">
+                        <li class="fragment">RadObject</li>
+                        <li class="fragment">RadElement</li>
+                        <li class="fragment">VisualElement</li>
+                        <li class="fragment">BasePrimitive</li>
+                        <li class="fragment">RadComponent &amp; RadComponentElement</li>
+                        <li class="fragment">LayoutPanel</li>
+                        <li class="fragment">RadItem</li>
+                        <li class="fragment">RadControl</li>
+                    </ul>
+                    <aside class="notes">
+                        Important classes in the TPF hierarchy:
+                        <ul>
+                            <li><code>RadObject</code> represents the base class for all RadElement objects and has the ability to store all property values in a single structure.</li>
+                            <li><code>RadElement</code> is a key class that represents the smallest unit in a RadControl that can be painted or laid out on the screen. RadElement is the base class of all elements that take advantage of TPF features, e.g. property inheritance, layouts and styling. RadElement implements a tree-like structure of RadObjects, property value inheritance and automatic layout and display invalidation based on the options of the PropertyMetadata for each RadProperty. RadElement has a size and location specified in coordinates in relation to its parent.</li>
+                            <li><code>VisualElement</code> adds visual properties common to all elements that will be painted, e.g. back color, fore color, font, default size, smoothing mode, opacity.</li>
+                            <li><code>BasePrimitive</code> is a VisualElement descendant that implements the IPrimitive interface. IPrimitive adds a single boolean property ShouldPaint and a PaintPrimitive method that draws a primitive to the screen. Descendants of BasePrimitive override the PaintPrimitive method to represent some atomic visual component like text, fill, checkbox, arrows, etc</li>
+                            <li><code>RadComponentElement</code> implements <code>IComponent</code> and introduces the ability to be contained. <code>BasePrimitive</code> is a <code>VisualElement</code> descendant that adds a <code>virtual PaintPrimitive()</code> method that draws a primitive to the screen.</li>
+                            <li><code>LayoutPanel</code> an abstract class descending from RadElement. LayoutPanel descendants coordinate sizing and position for a number of elements.</li>
+                            <li><code>RadItem</code> represents a visual element which could be added to an ItemsCollection and can be selected, deleted or moved during Visual Studio at design time. By default this class knows how to handle user input. <code>RadControl</code> is the abstract base class for all RadControls. Each RadControl contains a tree of RadElements. The tree has a root, the <code>RadControl.RootElement</code> (type RootRadElement shown in the diagram) and children of the root element. RadControl acts as a bridge between the traditional Windows forms controls and the RadElement tree. RadControl also defines properties common across all controls e.g. ThemeName, Style, ImageList, image scaling properties, minimum and maximum sizes</li>
+                            <li>RadControl is the abstract base class for all RadControls. Each RadControl contains a tree of RadElements. The tree has a root, <code>RadControl.RootElement</code> and children of the root element. The nesting of the elements in this tree represents the visual nesting that is displayed in the control. Elements are painted starting from the root to the leaves of the tree. The leaves are most often primitive elements, e.g. text, fills and borders. RadControl acts as a bridge between the traditional Windows forms controls and the RadElement tree. Events, for example are captured in the traditional way, then routed to the RootRadElement where they continue to tunnel down to the other elements in the tree. Likewise, RadControl also recognizes when the mouse is over a given element. RadControl defines properties common across all controls e.g. ThemeName, Style, ImageList, image scaling properties, minimum and maximum sizes</li>
+                        </ul>
+                    </aside>
+                </section>
+                <section data-background-color="#fff">
+                    <img class="no-border" src="./img/tpf-class-hierarchy-overview001.png" width="580" />
+                </section>
+                <section id="primitives">
+                    <h3>Primitives</h3>
+                    <ul class="present" style="font-size: 21pt;">
+                        <li class="fragment" data-fragment-index="0"><code>TextPrimitive</code>: a string of text.</li>
+                        <li class="fragment" data-fragment-index="1"><code>BorderPrimitive</code>: the border around a control or area.</li>
+                        <li class="fragment" data-fragment-index="1"><code>FillPrimitive</code>: the fill within a rectangular area.</li>
+                        <li class="fragment" data-fragment-index="2"><code>LinePrimitive</code>: a line.</li>
+                        <li class="fragment" data-fragment-index="2"><code>RectanglePrimitive</code>: a rectangle.</li>
+                        <li class="fragment" data-fragment-index="3"><code>CheckPrimitive</code>: a check mark.</li>
+                        <li class="fragment" data-fragment-index="3"><code>RadioPrimitive</code>: a single radio button.</li>
+                        <li class="fragment" data-fragment-index="4"><code>ImagePrimitive</code>: an image.</li>
+                        <li class="fragment" data-fragment-index="5"><code>ArrowPrimitive</code>: an arrow on screen, such as the arrow in a RadDropDownButton control.</li>
+                        <li class="fragment" data-fragment-index="5"><code>OverflowPrimitive</code>: an overflow&nbsp;arrow.&nbsp;</li>
+                        <li class="fragment" data-fragment-index="5"><code>GripPrimitive</code>: Displays a vertical row of dots as an visual cue that the area can be gripped and dragged.</li>
+                        <li class="fragment" data-fragment-index="5"><code>ProgressBarPrimitive</code>: the interior of a progress bar.</li>
+                        <li class="fragment" data-fragment-index="5"><code>TrackBarPrimitive</code>: the basic UI of a trackbar, without the trackbar thumb.</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Layout</h3>
+                    <ul class="present">
+                        <li class="fragment">Outer layout system: Winforms</li>
+                        <li class="fragment">Inner layout system: TPF</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>The layout system places elements and controls on the screen in the most optimal way for the user to see them. There are two layout systems that RadControls work with:</p>
+                        <ul>
+                            <li>Outer layout system: This is the Microsoft layout system for Winforms. This layout system arranges controls on the form and top-level windows on the desktop.</li>
+                            <li>Inner layout system: The TPF layout system arranges elements within RadControls.</li>
+                        </ul>
+                        <p>These two layout systems interact so that outer layouts affect inner and vice-versa.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Predefined Layout Panels</h3>
+                    <ul class="present">
+                        <li class="fragment">StackLayoutPanel</li>
+                        <li class="fragment">WrapLayoutPanel</li>
+                        <li class="fragment">GridLayout</li>
+                        <li class="fragment">ImageAndTextLayoutPanel</li>
+                        <li class="fragment">BoxLayout</li>
+                        <li class="fragment">DockLayout</li>
+                    </ul>
+                    <aside class="notes">
+                        <ul>
+                            <li>StackLayoutPanel: handles the layout of multiple elements in a vertical or horizontal row</li>
+                            <li>WrapLayoutPanel: handles the layout of elements in a vertical or horizontal row and wraps to additional lines</li>
+                            <li>GridLayout: Arranges its child controls in a tabular structure of rows and columns. Each column/row can be in one of three sizing modes: fixed, proportional or auto.</li>
+                            <li>ImageAndTextLayoutPanel: Arrange an image and a string in a box. The real holder of the image should be an ImagePrimitive and the holder of the string should be a TextPrimitive.</li>
+                            <li>BoxLayout: Arranges its items according to three predefined settings:Proportion, Orientation and StripPosition.</li>
+                            <li>DockLayoutPanel: Docks its child elements to a predefined-position. The possible Dock positions are Left, Top, Right and Bottom.</li>
+                        </ul>
+                        <a href="https://docs.telerik.com/devtools/winforms/telerik-presentation-framework/layout/predefined-layout-panels/predefined-layout-panels">Documentation</a>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Dependency Properties</h3>
+                    <ul class="present">
+                        <li class="fragment">Data binding</li>
+                        <li class="fragment">Default value</li>
+                        <li class="fragment">Value validation</li>
+                        <li class="fragment">Animation</li>
+                        <li class="fragment">Change Monitoring</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>RadControls support the Telerik Presentation Framework (TPF) dependency property system. Dependency properties are properties that depend on the values of other inputs. Unlike the standard Common Language Runtime (CLR) properties, dependency properties may get their input from multiple sources like themes, animation, data binding, or through parent-child relationships with other elements in the element tree.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>RadProperty</h3>
+<pre><code class="cs">public static RadProperty IsDefaultButtonProperty;
+public MyButtonElement() {
+    IsDefaultButtonProperty = RadProperty.Register("IsDefaultButton",
+        typeof(bool), typeof(MyButtonElement),
+        new RadElementPropertyMetadata(false, ElementPropertyOptions.None,
+            new PropertyChangedCallback(OnIsDefaultButtonPropertyChanged)));
+}
+
+public bool IsDefaultButton {
+    get => return (bool)this.GetValue(IsDefaultButtonProperty);
+    set => this.SetValue(IsDefaultButtonProperty, value);
+}
+
+private static void OnIsDefaultButtonPropertyChanged(RadObject obj, RadPropertyChangedEventArgs e) {
+    Console.WriteLine("OnIsDefaultButtonChanged");
+}</code></pre>
+                    <aside class="notes">
+                        <p>The naming convention for the property is a descriptive property name followed by "Property", i.e. for a "Height" property the dependency property name is "HeightProperty".</p>
+                        <p>Dependency properties are static and are created using the static RadProperty Register() method. The Register method describes the name of the property, owner type, property type and meta data for the property. Typically, the property is then wrapped as a standard CLR type property using the RadObject GetValue() and SetValue() methods.</p>
+                        <p>The example below registers a new IsDefaultButtonProperty, wraps the dependency property as a standard CLR property - "IsDefaultButton". In addition the property meta data sets the default value and the callback method (this method will be executed when the property is changed).</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>HTML-like Text Formatting</h3>
+                    <img class="no-border" src="./img/MarkupEditor.png" />
+                    <aside class="notes">
+                        <p>Telerik UI for for WinForms provide an advanced text styling mechanism which can be applied to all Telerik WinForms controls and their elements, because it enhances one of the smallest element in Telerik Presentation Framework - the text primitive. The new rich text formatting mechanism uses plain HTML tags to display formatted text such as font style, font color, font size, etc.</p>
+                        <p>Your text must start with the &lt;html&gt; tag so that HTML-like formatting is activated.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>HTML-like Text Formatting</h3>
+<pre><code class="cs">this.radLabel1.Text = &quot;&lt;html&gt;&lt;size=12&gt;This is RadLabel&quot; +
+    &quot;&lt;br&gt;&lt;b&gt;&lt;font=Arial&gt;Arial, Bold&lt;/b&gt;&quot; +
+    &quot;&lt;br&gt;&lt;i&gt;&lt;color= Red&gt;&lt;font=Times New Roman&gt;Times, Italic &lt;u&gt;Underline&lt;/u&gt;&quot; +
+    &quot;&lt;br&gt;&lt;size=9&gt;Size = 9&lt;br&gt;&lt;color= 0, 0, 255&gt;Sample Text&quot;;</code></pre>
+                    <aside class="notes">
+                        <p>You can use <code>&lt;size=[+|-]value&gt;</code> to set font size use, and &lt;br&gt; to create new line feed. To set bold, underline, and italic text use the corresponding opening and closing tags. Font family is set through <code>&lt;font=Family&gt;</code>.</p>
+                    </aside>
+                </section>
+                <section data-background-color="#fff">
+                    <h3>High DPI support</h3>
+                    <img class="no-border" src="./img/dpi-support001.png" width="470" />
+                    <img class="no-border" src="./img/dpi-support002.png" width="470" />
+                    <aside class="notes">
+                        <p>Windows 8.1 introduces a new &quot;DPI scaling per monitor&quot; feature. Applications that do not declare themselves as DPI aware always get bitmap-scaled even though they can render properly under high DPI settings</p>
+                        <p>UI for WinForms is giving your Windows apps support for high resolution DPI monitors as a built-in part of UI for WinForms.</p>
+                        <p>In R2 2017 we are introducing built-in HDPI support in the Progress® Telerik® UI for WinForms suite. This coincides with the HDPI improvements Microsoft is bringing with .NET 4.7 and the Windows 10 Creators Update. The best part is that you will get this support no matter which .NET framework you are targeting (currently supported from .NET 2.0 and up).</p>
+                        <p>With the changes we are introducing, the common problem of bad scaling when your applications run on high resolution monitors goes away, so your app will ship with higher quality on more systems instantly. The problem with the blurry fonts and unreadable texts will be eliminated and the potential of modern hardware will be utilized fully.</p>
+                        <p>All you will have to do is declare your application as DPI aware and RadControls will scale their UI elements in accordance to the current DPI settings automatically. To do that, you have to have an app.manifest file and/or an app.config file with several lines of code</p>
+                        <a href="http://www.telerik.com/blogs/winforms-scaling-at-large-dpi-settings-is-it-even-possible-">More information here</a>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Touch Support</h3>
+                    <ul class="fragment">
+                        <li>RadGridView</li>
+                        <li>RadTreeView</li>
+                        <li>RadListView</li>
+                        <li>RadPropertyGrid</li>
+                        <li>RadListControl</li>
+                        <li>RadCarousel</li>
+                        <li>RadCommandBar</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>The Telerik UI for for WinForms suite provides full multi-touch support. All controls in the suite are exposing several events which grant the developer the ability to easily handle gestures on a touch devices. This functionality is currently supported under Windows7 or newer. Some of the controls in our suite have built-in functionality that responds to touch gestures. For example, you can use the Pan gesture to scroll through the RadGridView’s rows, group by a column or change the order of its columns. Similar functionality is available out-of-the-box for RadTreeView, RadListView, RadPropertyGrid, RadListControl, RadCarousel and RadCommandBar.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Touch events</h3>
+                    <ul>
+                        <li>All</li>
+                        <li>Pan</li>
+                        <li>Rotate</li>
+                        <li>Zoom</li>
+                        <li>TwoFingerTap</li>
+                        <li>PressAndTap</li>
+                    </ul>
+                    <aside class="notes">
+                        <p>Additionally, the developer can use the gesture events to implement his custom logic.</p>
+                    </aside>
+                </section>
+                <section data-background-color="#fff">
+                    <h3>Touch Support</h3>
+                    <pre><code class="cs">protected override void CreateChildItems(RadElement parent) {
+    ...
+    button.RotateGesture += new RotateGestureEventHandler(OnRotateGesture);
+    button.ZoomGesture += new ZoomGestureEventHandler(OnZoomGesture);
+}
+
+void OnRotateGesture(object sender, RotateGestureEventArgs e) {
+    button.AngleTransform -= (float)(e.Angle * 180D / Math.PI);
+}
+
+void OnZoomGesture(object sender, ZoomGestureEventArgs e) {
+    button.ScaleTransform = new SizeF(
+        (float)(button.ScaleTransform.Width * e.ZoomFactor),
+        (float)(button.ScaleTransform.Height * e.ZoomFactor));
+}</code></pre>
+                </section>
+                <section>
+                    <h3>Transformations</h3>
+                    <ul class="present">
+                        <li class="fragment">Rotate (AngleTransform)</li>
+                        <li class="fragment">Scale (ScaleTransform)</li>
+                        <li class="fragment">Translate (PositionOffset)</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Highlight and BorderHighlight mouse effects</h3>
+                    <img class="no-border" src="./img/tpf-mouse-effects001.gif" />
+                    <aside class="notes">
+                        <p>Since R1 2018 RadControls are supporting mouse effects. Each element that inherits RadItem support these effects. The effects are allowing you to change the border and the fill while the mouse is over the element. The following image is showing the effects:</p>
+                        <h3>Highlight Effect:</h3>
+                        <ul>
+                            <li>EnableHighlightProperty: turns this effect on or off.</li>
+                            <li>HighlightColor: Gets or Sets the color of the effect.</li>
+                        </ul>
+                        <h3>BorderHighligh Effect:</h3>
+                        <ul>
+                            <li>EnableBorderHighlight: turns this effect on or off.</li>
+                            <li>BorderHighlightColor: Gets or Sets the color of the effect.</li>
+                            <li>BorderHighlightThickness: Gets or Sets the highlighted border thickness.</li>
+                        </ul>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Animations</h3>
+                    <img class="no-border" src="./img/tpf-animations002.gif" />
+<pre><code class="cs">private void btnAnimateMargin_Click(object sender, EventArgs e) {
+    AnimatedPropertySetting setting2 = new AnimatedPropertySetting();
+    setting2.Property = RadElement.MarginProperty;
+    setting2.StartValue = new Padding(0);
+    setting2.EndValue = new Padding(10);
+    setting2.NumFrames = 14;
+    setting2.Interval = 30; // milliseconds
+    setting2.ApplyValue(btnAnimateMargin.ButtonElement);
+}</code></pre>
+                </section>
+                <section data-background-color="#000">
+                    <h3>Live Coding - TPF</h3>
+                    <h4>Objectives</h4>
+                    <ul class="present">
+                        <li class="fragment">Customize RadButton</li>
+                        <li class="fragment">Create custom component</li>
+                    </ul>
+                    <aside class="notes">
+                        <em>Demonstrate app <b>TPFHello</b></em>
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <section data-background="./img/bg-pattern.png">
+                    <h3>Telerik Theme Viewer</h3>
+                    <aside class="notes">
+                        Demonstrate Themes and RadControls in <em>Telerik Theme Viewer</em>.
+                    </aside>
+                </section>
+                <section>
+                    <h3>Setting a Theme</h3>
+                    <img class="" src="./img/themes-using-themes002.png" />
+                    <aside class="notes">
+                        <p>All themes that come with Telerik UI for for WinForms since version R2 2008 are available as standalone components, apart from the control's assemblies. This improvement has been added in order to simplify the way themes are added to the application and to improve the application’s loading time.</p>
+
+                        <p>If you have installed the suite from the provided installation files, you will see the themes loaded in the Visual Studio toolbox. If you do not see the themes in the toolbox, you will have to add them manually to the toolbox.</p>
+
+                        <p>In order to use the Theme components, just drag and drop them from the VS Toolbox to the form. This will add a reference to the corresponding theme assembly in the project and will enable the theme in the ThemeName drop-down of all Telerik controls on the form. All you have to do afterwards is to set the needed theme from the ThemeName drop-down (in the smart tag) or programmatically.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Setting a Theme</h3>
+<pre><code class="cs">public MyRadForm()
+{
+    InitializeComponent();
+
+    var theme = new Telerik.WinControls.Themes.FluentTheme();
+    this.ThemeName = theme.ThemeName; // Applies to current form
+
+    Telerik.WinControls.ThemeResolutionService.ApplicationThemeName =
+        theme.ThemeName; // Default theme for the entire application
+}</code></pre>
+                    <aside class="notes">
+                        <p>Before using the following code snippets, please make sure that you have added the desired theme DLL file to your project references.</p>
+                        <p>When your application has many and different controls, you may find it inconvenient to go through all the controls in order to set their ThemeName property. For such cases, set the static <code>ThemeResolutionService.ApplicationThemeName</code> property to a theme name in the form's constructor</p>
+                        <p>Note: All your controls will use that specified theme which has precedence over the theme set locally to the control using <code>ThemeName</code> property.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Opt ouf of ApplicationTheme</h3>
+<pre><code class="cs">public MyRadForm()
+{
+    this.radButton2.ElementTree.EnableApplicationThemeName = false;
+    this.radButton2.ThemeName = telerikMetroBlueTheme1.ThemeName;
+}</code></pre>
+                    <aside class="notes">
+                        <p>This property indicates how the theme will be set to the control. If it is set to <code>true</code> (the default value) the control will have the theme that is globally set (with the <code>ApplicationThemeName</code> property). If it is set to <code>false</code>, the theme, set with the <code>ThemeName</code> property will be respected. For example, you can set the theme for the entire application except for one <code>RadButton</code> control</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>Loading Additional Themes</h3>
+<pre><code class="cs">private Task LoadThemesAsync()
+{
+    return Task.Run(() =>
+    {
+        new Telerik.WinControls.Themes.FluentTheme();
+        new Telerik.WinControls.Themes.MaterialPinkTheme();
+        new Telerik.WinControls.Themes.Office2010BlackTheme();
+        new Telerik.WinControls.Themes.Office2010BlueTheme();
+        new Telerik.WinControls.Themes.Office2010SilverTheme();
+        new Telerik.WinControls.Themes.Office2013DarkTheme();
+        new Telerik.WinControls.Themes.Office2013LightTheme();
+        new Telerik.WinControls.Themes.TelerikMetroTheme();
+        new Telerik.WinControls.Themes.TelerikMetroBlueTheme();
+    });
+}</code></pre>
+                    <aside class="notes">
+                        <p>When you register/load a theme in your project, this registration takes some time when you start your application. If you have a large number of themes, this time may become noticeable. If you application initially starts with only one theme applied to the RadControls on the form (for example ControlDefault theme), this means that you do not need to have the other themes loaded when the application is started. So, in order to descrease application loading time we can load the other themes in a separate thread.</p>
+                        <p>In this code snippet we decreased the loading time by about 400 ms.</p>
+                        <a href="https://www.telerik.com/support/kb/winforms/details/load-theme-components-in-a-separate-thread">Blog post</a>
+                    </aside>
+                </section>
+                <section data-background="./img/themes-visualstylebuilder010.png">
+                    <h3>Visual Style Builder</h3>
+                    <aside class="notes">
+                        Demonstrate creating a custom theme based on existing one in <em>Visual Style Builder</em>.
+                    </aside>
+                </section>
+            </section>
+            <section>
+                <section>
+                    <h3>WinForms Converter</h3>
+                    <img class="no-border" src="./img/winforms-converter-overview001.png" />
+                    <aside class="notes">
+                        <p>This tool allows you to convert the standard .NET Windows Forms controls for all projects in a particular solution to their equivalent in Telerik UI for for WinForms. It aims to speed up the conversion process and save time when such projects are modernized. The tool is built on top of the Roslyn compiler platform.</p>
+                    </aside>
+                </section>
+                <section>
+                    <h3>WinForms Converter</h3>
+                    <ul class="present">
+                        <li class="fragment">Large number of supported controls</li>
+                        <li class="fragment">Real-Time differences</li>
+                        <li class="fragment">Auto Backup</li>
+                        <li class="fragment">Log</li>
+                        <li class="fragment">Convert to a specific version</li>
+                        <li class="fragment">C# &amp; VB</li>
+                    </ul>
+                </section>
+                <section data-background-color="#000">
+                    <h3>Convert existing app</h3>
+                    <aside class="notes">
+                        <em>Convert app <b>John.SocialClub</b></em>
+                    </aside>
+                </section>
+                <section id="telerik-components" data-background-color="#EFF8FF">
+                    <h3>RadControls</h3>
+                    <ul>
+                        <li>Data Management</li>
+                        <li>Data Visualization</li>
+                        <li>Forms &amp; Dialogs</li>
+                        <li>Editors</li>
+                        <li>Navigation</li>
+                        <li>Document Processing</li>
+                        <li>Office</li>
+                        <li>Interactivity &amp; UX</li>
+                        <li>Scheduling</li>
+                        <li>Layout</li>
+                    </ul>
+                    <aside class="notes">
+                        <a href="https://www.telerik.com/products/winforms.aspx">Overview</a>
+                    </aside>
+                </section>
+                <section>
+                    <h3>MVP</h3>
+                    <img class="no-border" src="./img/IC340102.png" />
+                    <aside class="notes">
+                        <p>Separate the logic for the visual display from the event handling behavior by putting them into two classes that are named, respectively, the view and the presenter. The view manages the controls on the Web page and forwards user events to a presenter. The presenter contains the logic to respond to the events, updates the model (both the business logic and the application data), and alters the state of the view.</p>
+
+                        <p>To make the presenter testable, define a view interface and have the presenter refer to the view interface instead of to the view implementation class. This allows you to replace the actual view with a substitute implementation for unit tests.</p>
+
+                        <p>There are many variations to the MVP pattern. One option is to use the Supervising Presenter approach (this is also named Supervising Controller).</p>
+
+                        <p>In Supervising Presenter, the view interacts directly with the model to perform any simple data binding that can be declaratively defined, without the presenter. The presenter updates the model. It only changes the state of the view when complex UI logic that cannot be declaratively specified is required. Examples of complex UI logic might include changing the color of a control or dynamically hiding or showing controls.</p>
+                    </aside>
+                </section>
+                <section data-background-color="#000">
+                    <h3>Live Coding - Telerik UI</h3>
+                    <h4>Objectives</h4>
+                    <ul class="present">
+                        <li class="fragment">Visualize data with RadGridView</li>
+                        <li class="fragment">Edit data with RadDataEntry</li>
+                        <li class="fragment">Create graphs with RadChartView</li>
+                    </ul>
+                    <aside class="notes">
+                        <em>Demonstrate app <b>DbApp</b></em>
+                    </aside>
+                </section>
+                <section data-background="./img/ts_headbanner.jpg">
+                    <h3>UI testing is important!</h3>
+                    <ul class="present">
+                        <li class="fragment">Visual Studio Coded UI</li>
+                        <li class="fragment">SmartBear TestComplete</li>
+                    </ul>
+                    <aside class="notes">
+                        <a href="https://smartbear.com/product/testcomplete/desktop-testing/">Smartbear</a>
+                    </aside>
+                </section>
+            </section>
+            <section id="questions">
+                <h3>Questions?</h3>
+                <img class="" src="./img/cats-staring.jpg" width="500" />
+            </section>
+            <section id="end">
+                <h2>Thank You!</h2>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><img class="no-border" src="./img/email.png" style="width:70px"></td>
+                            <td style="vertical-align:middle"> <a href="mailto:yavor@newventuresoftware.com?Subject=Hello" target="_blank">yavor@newventuresoftware.com</a></td>
+                        </tr>
+                        <tr>
+                            <td><img class="no-border" src="./img/github.png" width="70"></td>
+                            <td style="vertical-align:middle"> <a href="https://github.com/yavor87" target="_blank">github.com/yavor87</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
+        <section class="reveal-shared">
+            <div class="nvs-logo-container">
+                <a href="http://www.newventuresoftware.com/" target="_blank">
+                    <img class="no-border" src="./img/nvs-logo.svg" width="150"/>
+                </a>
+            </div>
+            <div class="progress-logo-container">
+                <img alt="" src="./img/progress-watermarks/Progress_Logos_Telerik-WF_vertical.png" class="no-border" width="250" />
+            </div>
+            <div class="nvs-website-bar">
+                <span class="nvs-website-text brackets">www.newventuresoftware.com</span>
+                <small style="float: right; margin-right: 20px;">
+                    &copy; 2018 Progress Software Corporation and/or its subsidiaries or affiliates. All rights reserved.
+                </small>
+            </div>
+        </section>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+         // More info about config & dependencies:
+         // - https://github.com/hakimel/reveal.js#configuration
+         // - https://github.com/hakimel/reveal.js#dependencies
+         Reveal.initialize({
+            history: true,
+            progress: true,
+            touch: true,
+            transition: 'fade-in',
+            dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+            ],
+            slideNumber: 'c/t'
+         });
+     </script>
+ </body>
+ </html>
