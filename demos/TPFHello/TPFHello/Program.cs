@@ -14,6 +14,10 @@ namespace TPFHello
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            bool res = Telerik.WinControls.ThemeResolutionService.LoadPackageResource("TPFHello.MyControlDefault.tssp");
+            Telerik.WinControls.ThemeResolutionService.ApplicationThemeName = "MyControlDefault";
+
             Application.Run(new RadForm1());
         }
     }
