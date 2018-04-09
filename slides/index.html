@@ -179,9 +179,11 @@
             <section id="agenda" class="color-white" data-background-image="./img/school-board.jpg">
                 <h3>Agenda</h3>
                 <ul>
-                    <li class="fragment">Getting started</li>
                     <li class="fragment">TPF</li>
+                    <li class="fragment">Themes</li>
                     <li class="fragment">Explore &amp; customize components</li>
+                    <li class="fragment">Convert existing apps to RadControls</li>
+                    <li class="fragment">MVP</li>
                 </ul>
             </section>
             <section id="winforms-intro">
@@ -244,13 +246,12 @@
                     </ul>
                 </section>
                 <section>
-                    <h3>Important classes in the TPF hierarchy</h3>
+                    <h3>Important classes in the TPF</h3>
                     <ul class="present">
                         <li class="fragment">RadObject</li>
                         <li class="fragment">RadElement</li>
                         <li class="fragment">VisualElement</li>
                         <li class="fragment">BasePrimitive</li>
-                        <li class="fragment">RadComponent &amp; RadComponentElement</li>
                         <li class="fragment">LayoutPanel</li>
                         <li class="fragment">RadItem</li>
                         <li class="fragment">RadControl</li>
@@ -262,15 +263,17 @@
                             <li><code>RadElement</code> is a key class that represents the smallest unit in a RadControl that can be painted or laid out on the screen. RadElement is the base class of all elements that take advantage of TPF features, e.g. property inheritance, layouts and styling. RadElement implements a tree-like structure of RadObjects, property value inheritance and automatic layout and display invalidation based on the options of the PropertyMetadata for each RadProperty. RadElement has a size and location specified in coordinates in relation to its parent.</li>
                             <li><code>VisualElement</code> adds visual properties common to all elements that will be painted, e.g. back color, fore color, font, default size, smoothing mode, opacity.</li>
                             <li><code>BasePrimitive</code> is a VisualElement descendant that implements the IPrimitive interface. IPrimitive adds a single boolean property ShouldPaint and a PaintPrimitive method that draws a primitive to the screen. Descendants of BasePrimitive override the PaintPrimitive method to represent some atomic visual component like text, fill, checkbox, arrows, etc</li>
-                            <li><code>RadComponentElement</code> implements <code>IComponent</code> and introduces the ability to be contained. <code>BasePrimitive</code> is a <code>VisualElement</code> descendant that adds a <code>virtual PaintPrimitive()</code> method that draws a primitive to the screen.</li>
                             <li><code>LayoutPanel</code> an abstract class descending from RadElement. LayoutPanel descendants coordinate sizing and position for a number of elements.</li>
-                            <li><code>RadItem</code> represents a visual element which could be added to an ItemsCollection and can be selected, deleted or moved during Visual Studio at design time. By default this class knows how to handle user input. <code>RadControl</code> is the abstract base class for all RadControls. Each RadControl contains a tree of RadElements. The tree has a root, the <code>RadControl.RootElement</code> (type RootRadElement shown in the diagram) and children of the root element. RadControl acts as a bridge between the traditional Windows forms controls and the RadElement tree. RadControl also defines properties common across all controls e.g. ThemeName, Style, ImageList, image scaling properties, minimum and maximum sizes</li>
+                            <li><code>RadItem</code> represents a visual element which could be added to an ItemsCollection and can be selected, deleted or moved during Visual Studio at design time. By default this class knows how to handle user input.</li>
                             <li>RadControl is the abstract base class for all RadControls. Each RadControl contains a tree of RadElements. The tree has a root, <code>RadControl.RootElement</code> and children of the root element. The nesting of the elements in this tree represents the visual nesting that is displayed in the control. Elements are painted starting from the root to the leaves of the tree. The leaves are most often primitive elements, e.g. text, fills and borders. RadControl acts as a bridge between the traditional Windows forms controls and the RadElement tree. Events, for example are captured in the traditional way, then routed to the RootRadElement where they continue to tunnel down to the other elements in the tree. Likewise, RadControl also recognizes when the mouse is over a given element. RadControl defines properties common across all controls e.g. ThemeName, Style, ImageList, image scaling properties, minimum and maximum sizes</li>
                         </ul>
                     </aside>
                 </section>
                 <section data-background-color="#fff">
                     <img class="no-border" src="./img/tpf-class-hierarchy-overview001.png" width="580" />
+                    <aside class="notes">
+                    	<p>Each RadControl contains a tree of RadElements. The tree has a root, the <code>RadControl.RootElement</code> (type RootRadElement shown in the diagram) and children of the root element. RadControl acts as a bridge between the traditional Windows forms controls and the RadElement tree.</p>
+                    </aside>
                 </section>
                 <section id="primitives">
                     <h3>Primitives</h3>
@@ -680,9 +683,6 @@ void OnZoomGesture(object sender, ZoomGestureEventArgs e) {
             </div>
             <div class="nvs-website-bar">
                 <span class="nvs-website-text brackets">www.newventuresoftware.com</span>
-                <small style="float: right; margin-right: 20px;">
-                    &copy; 2018 Progress Software Corporation and/or its subsidiaries or affiliates. All rights reserved.
-                </small>
             </div>
         </section>
     </div>
@@ -705,7 +705,7 @@ void OnZoomGesture(object sender, ZoomGestureEventArgs e) {
             { src: 'plugin/notes/notes.js', async: true },
             { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
             ],
-            slideNumber: 'c/t'
+            slideNumber: false
          });
      </script>
  </body>
